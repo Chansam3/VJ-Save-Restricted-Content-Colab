@@ -1,13 +1,13 @@
 import os
 
 #Bot token @Botfather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6865080558:AAG78HHqTGVoBkX1A4UWYnvUCJGfTZ0Hc")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-API_ID = int(os.environ.get("API_ID", "22451323"))
+API_ID = int(os.environ.get("API_ID", "10355467"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "4783925ba83751dfadedcc961bf1275")
+API_HASH = os.environ.get("API_HASH", "d86087c1892f818da03d68c3eaba765c")
 
 #Database 
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://heroku:heroku@cluster0.wamwxpr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://sarab9968:XSXhVMVLFJ47Q9am@cluster0.ljeycyu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
